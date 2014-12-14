@@ -4,7 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Alexander Sirenko
+coccoc.com
+Software Engineer
 
 ### More Information
 
@@ -12,4 +14,4 @@ A place to include any other types of information that you'd like to include abo
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[alexander.sirenko@gmail.com](mailto:alexander.sirenko@gmail.com)
