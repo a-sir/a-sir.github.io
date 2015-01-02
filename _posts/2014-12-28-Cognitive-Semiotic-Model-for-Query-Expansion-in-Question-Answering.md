@@ -3,6 +3,8 @@ layout: post
 title: Семиотическая модель на базе когнитивных экспериментов в расширении запроса вопросно-ответной задачи.
 ---
 
+Данная статья является авторским черновиком опубликованной в [Springer Analysis of Images, Social Networks and Texts](http://link.springer.com/book/10.1007/978-3-319-12580-0) англоязычной публикации [Cognitive Semiotic Model for Query Expansion in Question Answering](http://link.springer.com/chapter/10.1007/978-3-319-12580-0_23).
+
 ### Александр Сиренко
 
 Московский Государственный Технический Университет им. Баумана, Россия, Москва, 2-я Бауманская улица, стр. 5; TNHH Cốc Cốc, Vietnam.
