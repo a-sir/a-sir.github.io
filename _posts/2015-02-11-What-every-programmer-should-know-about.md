@@ -36,6 +36,15 @@ Take away:
 
 ## What should every programmer know about security.
 
+[stackoverflow - What should every programmer know about security?](http://stackoverflow.com/questions/2794016/what-should-every-programmer-know-about-security)
+
+Take away:
+
+1. Don't trust any input, use whitelists instead of blacklists;
+2. Decrease complexity;
+3. Adhere principle of last privilege;
+4. Use well-tested frameworks/libraries instead of own code.
+
 ## What every web developer must know about URL encoding.
 
 ## Every Computer Scientist Should Know About Floating-Point Arithmetic.
