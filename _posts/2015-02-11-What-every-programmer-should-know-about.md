@@ -24,6 +24,16 @@ Take away:
 
 # 10 Things Every Java Programmer Should Know about String.
 
+[10 Things Every Java Programmer Should Know about String](http://javarevisited.blogspot.sg/2013/07/java-string-tutorial-and-examples-beginners-programming.html)
+
+Take away:
+
+1. String backed by char[], they are immutable and final;
+2. JVM caches them in String pool -> don't keep sensitive data in strings;
+3. String can have different encoding. If you don't know encoding, you can't interpret String correctly;
+4. SubString creates new instance in last versions of java (to avoid memory leaks). This could make additional pressure on gc;
+5. Split uses regexes, therefore it is slow.
+
 # What should every programmer know about security.
 
 # What every web developer must know about URL encoding.
