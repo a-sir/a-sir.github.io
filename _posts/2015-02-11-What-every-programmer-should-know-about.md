@@ -73,7 +73,18 @@ Take away:
 3. IEEE 754 assume **base**=2, **pr**=24 (single precision) and **pr**=53 (double precision);
 4. IEEE 854 assume **base**=(2 OR 10), **pr**=24 (single precision) and **pr**=53 (double precision);
 5. In IEEE std. zero could have sign;
+
+
 ## What every programmer needs to know about game networking.
+
+[What every programmer needs to know about game networking](http://gafferongames.com/networking-for-game-programmers/what-every-programmer-needs-to-know-about-game-networking/)
+
+Take away:
+
+1. First approach was peer-to-peer connections, when local machine receives commands of all players; Bad things: not synchronized movements on all machines, only for LAN;
+2. Secondly client-server scheme was used, it was better in latency but still not responcive enough;
+3. Then Carmack in Quake allowed local machine to predict movements of other player till it receives real actions.
+
 
 ## What technical details should a programmer of a web application consider before making the site public.
 
