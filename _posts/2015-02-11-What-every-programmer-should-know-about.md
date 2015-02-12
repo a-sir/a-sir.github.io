@@ -88,6 +88,15 @@ Take away:
 
 ## What technical details should a programmer of a web application consider before making the site public.
 
+[stackexchange - What technical details should a programmer of a web application consider before making the site public](http://programmers.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before)
+
+Take away:
+
+1. Test across different browsers and mobile;
+2. Plan how to deploy updates, setup good logging, automate backups;
+3. Redirect after POST to prevent refresh cycle;
+4. Use caching, optimal image size, gzip/deflate;
+
 ## Time.
 
 ## The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets.
