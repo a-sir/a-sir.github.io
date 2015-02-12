@@ -47,6 +47,16 @@ Take away:
 
 ## What every web developer must know about URL encoding.
 
+Take away:
+
+1. Reserved characters are different for each segment of URL;
+2. Use pynny-code encoding for hostnames and percent-encoding for the rest;
+3. analyze url before decoding, since after reserved characters appears and segment borders may change;
+4. Original -> Decode -> Encode -> Reencoded. Reencoded may differ from Original with same reason. Decoded URL may be valid without encoding;
+5. Java URLEncoder/URLDecoder can't be used for whole URL: they are for HTML form encoding. Best suits query part;
+6. Construct URL from properly encoded parts;
+7. If you need path segments - be sure you do use unencoded path;
+
 ## Every Computer Scientist Should Know About Floating-Point Arithmetic.
 
 ## What every programmer needs to know about game networking.
