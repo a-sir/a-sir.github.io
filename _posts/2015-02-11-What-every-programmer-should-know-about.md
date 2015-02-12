@@ -47,6 +47,8 @@ Take away:
 
 ## What every web developer must know about URL encoding.
 
+[Stéphane Épardaud - What every web developer must know about URL encoding](http://blog.lunatech.com/2009/02/03/what-every-web-developer-must-know-about-url-encoding)
+
 Take away:
 
 1. Reserved characters are different for each segment of URL;
@@ -57,8 +59,20 @@ Take away:
 6. Construct URL from properly encoded parts;
 7. If you need path segments - be sure you do use unencoded path;
 
+
 ## Every Computer Scientist Should Know About Floating-Point Arithmetic.
 
+[Goldberg - What Every Computer Scientist Should Know About Floating-Point Arithmetic](http://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html)
+
+Take away:
+
+1. Floating-point number consist from **base** and **precision**.
+0.1 (base=10, pr=3) = 1.00 * 10^(-1);
+0.1 (base=2, pr=24) =[approx]> 1.10011001100110011001101 * 2^(-4);
+2. Floating-point repr. could be not unique;
+3. IEEE 754 assume **base**=2, **pr**=24 (single precision) and **pr**=53 (double precision);
+4. IEEE 854 assume **base**=(2 OR 10), **pr**=24 (single precision) and **pr**=53 (double precision);
+5. In IEEE std. zero could have sign;
 ## What every programmer needs to know about game networking.
 
 ## What technical details should a programmer of a web application consider before making the site public.
