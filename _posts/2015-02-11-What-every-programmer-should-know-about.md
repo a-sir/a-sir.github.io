@@ -108,3 +108,9 @@ Take away:
 3. Timezones is a presentation problem. Better to use UTC in software.
 
 ## The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets.
+
+[Joel Spolsky - The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets](http://www.joelonsoftware.com/articles/Unicode.html)
+
+1. Unicode is a set of code points. Each letter has own code point, but Unicode don't say anything about physical way to keep letter in memory;
+2. Encoding determine that. First encodings used 2 bytes for each code point, but they may keep bytes in direct or reverted order to make processing faster;
+3. Most of letters in English use 1 byte, therefore UTF-8 was invented to save space. 1 byte for code points 0-127 and up to 6 bytes for upper code points.
