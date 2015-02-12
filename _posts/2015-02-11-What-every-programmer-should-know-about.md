@@ -99,4 +99,12 @@ Take away:
 
 ## Time.
 
+[unix4lyfe.org - Time](https://unix4lyfe.org/time/)
+
+Take away:
+
+1. UTC=GMT = Greenwich time. Other timezones have offset from UTC;
+2. epoch its seconds from UTC beginning of 1970;
+3. Timezones is a presentation problem. Better to use UTC in software.
+
 ## The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets.
