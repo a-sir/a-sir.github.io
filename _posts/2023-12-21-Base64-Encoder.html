@@ -1,0 +1,31 @@
+---
+layout: post
+title: Encode UTF-8 string to Base64 and back.
+---
+
+<h1>Base64 Encoding</h1>
+    <table>
+      <tr>
+        <td><label for="sourceText">Decoded (UTF-8):</label></td>
+        <td><input type="text" id="sourceText"></td>
+        <td><button onclick="encodeText()">Encode</button></td>
+        <td>Note: text will be trimmed before encoding.</td>
+      </tr>
+      <tr>
+        <td><label for="encodedText">Encoded (ASCII):</label></td>
+        <td><input type="text" id="encodedText"></td>
+        <td><button onclick="decodeText()">Decode</button></td>
+      </tr>
+    </table>
+    <script>
+     function encodeText() {
+       var source = document.getElementById("sourceText").value.trim();
+       document.getElementById("encodedText").value =  btoa(source); // Base64 encoding
+       document.getElementById("sourceText").value = source;
+     }
+     function decodeText() {
+       var encoded = document.getElementById("encodedText").value;
+       document.getElementById("sourceText").value = atob(encoded); // Base64 encoding
+     }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
